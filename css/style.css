@@ -46,7 +46,7 @@ nav ul {
   list-style: none;
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 1px;
 }
 
 nav ul li a {
@@ -157,7 +157,7 @@ footer {
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
-    text-align: left;
+    text-align: center;
   }
 
   .hero h2 {
@@ -169,7 +169,7 @@ footer {
   }
 
   nav ul {
-    justify-content: left;
+    justify-content: center;
     padding-top: 10px;
   }
 }
